@@ -1,0 +1,1 @@
+const e={key:"v-47aa1687",path:"/avatar.html",title:"Avatar",lang:"ko",frontmatter:{},excerpt:"",headers:[{level:2,title:"Examples",slug:"examples",children:[]},{level:2,title:"Code",slug:"code",children:[]}],filePathRelative:"avatar.md",git:{createdTime:1651542669e3,updatedTime:1651542669e3,contributors:[{name:"haksoo",email:"haksoo@curioud.com",commits:1}]}};export{e as data};
