@@ -83,8 +83,6 @@
   </CodeGroupItem>
 </CodeGroup>
 
-
-
 <style lang="scss" scoped>
 .avatar {
   $size: 40px;
