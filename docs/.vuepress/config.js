@@ -8,7 +8,9 @@ module.exports = {
   lang: 'ko',
   title: 'CSS Components',
   description: 'CSS Components',
-  head: [],
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg'}]
+  ],
   theme: defaultTheme({
     sidebar: [
       {
