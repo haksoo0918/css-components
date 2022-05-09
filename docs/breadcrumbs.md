@@ -12,7 +12,7 @@
   </ol>
 </div>
 
-## Code
+## Codes
 
 <CodeGroup>
   <CodeGroupItem title="html">

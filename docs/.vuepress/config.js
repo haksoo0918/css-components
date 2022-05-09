@@ -21,6 +21,10 @@ module.exports = {
         text: 'Breadcrumbs',
         link: '/breadcrumbs'
       },
+      {
+        text: 'Divider',
+        link: '/divider'
+      },
     ],
   }),
   plugins: [

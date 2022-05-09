@@ -9,4 +9,8 @@
   padding: 1rem;
   border: 1px solid var(--c-border);
   border-radius: 1rem;
+
+  &-row {
+    flex-direction: column;
+  }
 }

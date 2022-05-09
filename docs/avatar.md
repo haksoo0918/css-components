@@ -22,7 +22,7 @@
   </div>
 </div>
 
-## Code
+## Codes
 
 <CodeGroup>
   <CodeGroupItem title="html">
