@@ -7,3 +7,18 @@ $MQMobileNarrow: 419px !default;
 $codeLang: 'c' 'cpp' 'cs' 'css' 'dart' 'docker' 'fs' 'go' 'html' 'java' 'js'
   'json' 'kt' 'less' 'makefile' 'md' 'php' 'py' 'rb' 'rs' 'sass' 'scss' 'sh'
   'styl' 'ts' 'toml' 'vue' 'yml' !default;
+
+// custom
+// ======================================
+
+// color
+$brand: #3eaf7c;
+$brand-dark: #7fff00;
+
+$bg-nav: #ffffff;
+$bg-nav-dark: #22272e;
+
+// funciton
+@function setOpacity($color, $opacity) {
+  @return rgba(red($color), green($color), blue($color), $opacity);
+}

@@ -1,9 +1,37 @@
+@import 'palette';
+
 :root {
   scroll-behavior: smooth;
+
+  // --c-brand: #{$brand};
+  --c-bg-navbar: #{setOpacity($bg-nav, 0.6)};
+
+  // add
+  --c-bg-side-active: #{setOpacity($brand, 0.1)};
 }
 
+html.dark {
+  --c-brand: #{$brand-dark};
+  --c-bg-navbar: #{setOpacity($bg-nav-dark, 0.6)};
+
+  // add
+  --c-bg-side-active: #{setOpacity($brand-dark, 0.1)};
+}
+
+// custom style
+.navbar {
+  backdrop-filter: blur(10px);
+}
+
+.sidebar-item.active:not(p.sidebar-heading) {
+  background-color: var(--c-bg-side-active);
+}
+
+// custom box
 .box {
   display: flex;
+  align-items: center;
+  flex-wrap: wrap;
   gap: 1rem;
   margin: 1rem 0;
   padding: 1rem;

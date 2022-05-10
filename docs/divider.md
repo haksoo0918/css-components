@@ -43,8 +43,8 @@
 .divider {
   $margin: 1em 0;
   $color: #666;
-  $font-size: 16px;
-  $font-color: #aaa;
+  $text-size: 16px;
+  $text-color: #aaa;
 
   border-color: $color;
   margin: $margin;
@@ -52,7 +52,7 @@
   &-text {
     display: flex;
     align-items: center;
-    font-size: $font-size;
+    font-size: $text-size;
     text-align: center;
 
     &::before,
@@ -67,7 +67,7 @@
       display: inline-block;
       flex: 0 0 0;
       padding: 0 1em;
-      color: $font-color;
+      color: $text-color;
       white-space: nowrap;
     }
   }
@@ -94,8 +94,8 @@
 .divider {
   $margin: 1em 0;
   $color: #666;
-  $font-size: 16px;
-  $font-color: #aaa;
+  $text-size: 16px;
+  $text-color: #aaa;
 
   border-color: $color;
   margin: $margin;
@@ -103,7 +103,7 @@
   &-text {
     display: flex;
     align-items: center;
-    font-size: $font-size;
+    font-size: $text-size;
     text-align: center;
 
     &::before,
@@ -118,7 +118,7 @@
       display: inline-block;
       flex: 0 0 0;
       padding: 0 1em;
-      color: $font-color;
+      color: $text-color;
       white-space: nowrap;
     }
   }

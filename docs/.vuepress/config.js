@@ -2,6 +2,7 @@ const { defaultTheme } = require('@vuepress/theme-default')
 const { searchPlugin } = require('@vuepress/plugin-search')
 const { backToTopPlugin } = require('@vuepress/plugin-back-to-top')
 const { gitPlugin } = require('@vuepress/plugin-git')
+// const path = require('path')
 
 module.exports = {
   base: '/css-components/',
@@ -22,11 +23,27 @@ module.exports = {
         link: '/breadcrumbs'
       },
       {
+        text: 'Button',
+        link: '/button'
+      },
+      {
         text: 'Divider',
         link: '/divider'
       },
     ],
   }),
+  // sass: {
+  //   prependData: `
+  //     @import '@styles/variables';
+  //   `
+  // },
+  // configureWebpack: {
+  //   resolve: {
+  //     alias: {
+  //       '@styles': path.resolve(__dirname, "./styles")
+  //     }
+  //   }
+  // },
   plugins: [
     searchPlugin({
       locales: {
@@ -37,5 +54,6 @@ module.exports = {
     }),
     backToTopPlugin(),
     gitPlugin(),
+    // palettePlugin(),
   ]
 }
