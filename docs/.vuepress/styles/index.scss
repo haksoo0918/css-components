@@ -18,7 +18,7 @@ html.dark {
   --c-bg-side-active: #{setOpacity($brand-dark, 0.1)};
 }
 
-// custom style
+// modify style
 .navbar {
   backdrop-filter: blur(10px);
 }
@@ -27,7 +27,63 @@ html.dark {
   background-color: var(--c-bg-side-active);
 }
 
-// custom box
+// custom style
+// ====================================================
+.btn {
+  $color: #7fff00;
+  $border-radius: 0.25em;
+  $text-size: 16px;
+  $text-color: #333;
+
+  padding: 0.5em 1em;
+  color: $text-color;
+  border: none;
+  border-radius: $border-radius;
+  background-color: $color;
+  font-size: $text-size;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+
+  &:hover {
+    background-color: darken($color, 10%);
+  }
+
+  &.disabled,
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+
+    &:hover {
+      background-color: $color;
+    }
+  }
+
+  &-link {
+    color: $color;
+    background-color: transparent;
+    text-decoration: underline;
+
+    &:hover {
+      background-color: rgba($color, 0.2);
+    }
+  }
+
+  &-outline {
+    color: $color;
+    border: $color solid 1px;
+    background-color: transparent;
+
+    &:hover {
+      color: $text-color;
+      background-color: $color;
+    }
+  }
+}
+
+// custom components
+// ====================================================
 .box {
   display: flex;
   // align-items: center;
@@ -41,4 +97,10 @@ html.dark {
   &-row {
     flex-direction: column;
   }
+}
+
+// custom utils
+// ====================================================
+.ovh {
+  overflow: hidden;
 }
