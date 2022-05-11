@@ -27,6 +27,10 @@ module.exports = {
         link: '/button'
       },
       {
+        text: 'Dialog',
+        link: '/dialog'
+      },
+      {
         text: 'Divider',
         link: '/divider'
       },

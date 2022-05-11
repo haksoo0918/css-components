@@ -13,7 +13,7 @@
 - [x] breadcrumbs
 - [x] button
 - [ ] card
-- [ ] dialog
+- [x] dialog
 - [x] divider
 - [ ] empty
 - [ ] navbar
