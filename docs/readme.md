@@ -9,12 +9,12 @@
 
 ## 작업 예상 컴포넌트
 
-- [x] avatar
-- [x] breadcrumbs
-- [x] button
-- [ ] card
-- [x] dialog
-- [x] divider
+- [x] avatar: base, circle
+- [x] breadcrumbs: base
+- [x] button: base, outline, disabled
+- [ ] card: base(vertical), horizontal(hrz)
+- [x] dialog: base
+- [x] divider: base, text, dashed
 - [ ] empty
 - [ ] navbar
 - [ ] input
@@ -28,3 +28,9 @@
 - [ ] progress
 - [ ] table
 - [ ] tag
+
+## scss 활용
+
+- [ ] mixins.scss
+- [ ] functions.scss
+- [ ] utils.scss

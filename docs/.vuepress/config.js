@@ -27,6 +27,10 @@ module.exports = {
         link: '/button'
       },
       {
+        text: 'Card',
+        link: '/card'
+      },
+      {
         text: 'Dialog',
         link: '/dialog'
       },
