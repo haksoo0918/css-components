@@ -6,7 +6,7 @@
 
 <div class="box">
   <ol class="breadcrumbs">
-    <li><a href="/">Home</a></li>
+    <li><a href="#/">Home</a></li>
     <li><a href="#/">Parent Page</a></li>
     <li>Current Page</li>
   </ol>
