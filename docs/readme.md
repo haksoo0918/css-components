@@ -7,6 +7,10 @@
 
 꼭 필요한 기능을 제하고선 JavaScript는 최대한 배제할 예정이다.
 
+지속적으로 업데이트 할 예정이다.
+컴퍼넌트도 추가 될 수도 있고, 만들었던 컴퍼넌트도 수정될 가능성이 높다.
+가능한 내가 사용함에 있어 가장 효율적으로 만들어갈 예정이다.
+
 ## 작업 예상 컴포넌트
 
 - [x] avatar: base, circle
@@ -15,8 +19,9 @@
 - [x] card: base(vertical), horizontal(hrz)
 - [x] dialog: base
 - [x] divider: base, text, dashed
-- [ ] empty
+- [x] empty
 - [ ] navbar
+- [ ] image: fluid, block, figure, picture
 - [ ] input
   - [ ] text
   - [ ] checkbox
@@ -31,6 +36,12 @@
 
 ## scss 활용
 
-- [ ] mixins.scss
-- [ ] functions.scss
-- [ ] utils.scss
+- [ ] breakpoints
+- [ ] utils
+- [ ] layout
+
+## customize
+
+- [ ] _mixins.scss
+- [ ] _functions.scss
+- [ ] _variables.scss

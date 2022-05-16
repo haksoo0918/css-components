@@ -38,6 +38,10 @@ module.exports = {
         text: 'Divider',
         link: '/divider'
       },
+      {
+        text: 'Empty',
+        link: '/empty'
+      },
     ],
   }),
   // sass: {
