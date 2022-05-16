@@ -10,7 +10,7 @@ module.exports = {
   title: 'CSS Components',
   description: 'CSS Components',
   head: [
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg'}]
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/css-components/favicon.svg'}]
   ],
   theme: defaultTheme({
     sidebar: [
