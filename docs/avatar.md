@@ -6,11 +6,11 @@
 
 <div class="box">
   <div class="avatar">
-    <img src="http://via.placeholder.com/40x40" alt="">
+    <img src="http://placekitten.com/40/40" alt="">
   </div>
 
   <div class="avatar avatar-circle">
-    <img src="http://via.placeholder.com/40x40" alt="">
+    <img src="http://placekitten.com/40/40" alt="">
   </div>
 
   <div class="avatar">
@@ -30,12 +30,12 @@
 ```html
 <!-- 이미지 -->
 <div class="avatar">
-  <img src="http://via.placeholder.com/40x40" alt="">
+  <img src="http://placekitten.com/40/40" alt="">
 </div>
 
 <!-- 이미지 & 원형 -->
 <div class="avatar avatar-circle">
-  <img src="http://via.placeholder.com/40x40" alt="">
+  <img src="http://placekitten.com/40/40" alt="">
 </div>
 
 <!-- 텍스트 -->

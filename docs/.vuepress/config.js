@@ -42,6 +42,10 @@ module.exports = {
         text: 'Empty',
         link: '/empty'
       },
+      {
+        text: 'Image',
+        link: '/image'
+      },
     ],
   }),
   // sass: {
