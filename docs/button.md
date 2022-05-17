@@ -5,19 +5,10 @@
 ## Examples
 
 <div class="box">
-
-  <!-- base -->
   <button class="btn" type="button">button</button>
-
-  <!-- link style -->
   <button class="btn btn-link" type="button">link style button</button>
-
-  <!-- outline style -->
   <button class="btn btn-outline" type="button">outline style button</button>
-
-  <!-- disabled -->
   <button class="btn" type="button" disabled>disabled button</button>
-
 </div>
 
 ## Codes

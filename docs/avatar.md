@@ -28,18 +28,22 @@
   <CodeGroupItem title="html">
 
 ```html
+<!-- 이미지 -->
 <div class="avatar">
   <img src="http://via.placeholder.com/40x40" alt="">
 </div>
 
+<!-- 이미지 & 원형 -->
 <div class="avatar avatar-circle">
   <img src="http://via.placeholder.com/40x40" alt="">
 </div>
 
+<!-- 텍스트 -->
 <div class="avatar">
   <div class="text">박</div>
 </div>
 
+<!-- 텍스트 & 원형 -->
 <div class="avatar avatar-circle">
   <div class="text">Y</div>
 </div>

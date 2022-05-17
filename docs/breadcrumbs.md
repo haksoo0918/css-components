@@ -18,6 +18,7 @@
   <CodeGroupItem title="html">
 
 ```html
+<!-- 구분자 '/' 사용 -->
 <ol class="breadcrumbs">
   <li><a href="/">Home</a></li>
   <li><a href="#/">Parent Page</a></li>
