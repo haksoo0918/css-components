@@ -7,6 +7,7 @@
 
 꼭 필요한 기능을 제하고선 JavaScript는 최대한 배제할 예정이다.
 
+많은 부분을 부트스트랩을 참고 하였고, 기타 UI 프레임워크도 같이 참고하여 만들었다.
 지속적으로 업데이트 할 예정이다.
 컴퍼넌트도 추가 될 수도 있고, 만들었던 컴퍼넌트도 수정될 가능성이 높다.
 가능한 내가 사용함에 있어 가장 효율적으로 만들어갈 예정이다.
@@ -20,8 +21,8 @@
 - [x] dialog: base
 - [x] divider: base, text, dashed
 - [x] empty
-- [ ] navbar
-- [ ] image: fluid, block, figure, picture
+- [x] navbar
+- [x] image: fluid, block, figure, picture
 - [ ] input
   - [ ] text
   - [ ] checkbox
