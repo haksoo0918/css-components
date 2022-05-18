@@ -18,7 +18,12 @@ $brand-dark: #7fff00;
 $bg-nav: #ffffff;
 $bg-nav-dark: #22272e;
 
+// font vars
+$font: 'Noto Sans KR', 'Noto Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+$font-code: 'Nanum Gothic Coding', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+
 // funciton
 @function setOpacity($color, $opacity) {
-  @return rgba(red($color), green($color), blue($color), $opacity);
+  // @return rgba(red($color), green($color), blue($color), $opacity);
+  @return change-color($color, $alpha: $opacity);
 }

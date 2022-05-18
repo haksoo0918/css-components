@@ -4,18 +4,20 @@
   scroll-behavior: smooth;
 
   // --c-brand: #{$brand};
-  --c-bg-navbar: #{setOpacity($bg-nav, 0.6)};
+  --c-bg-navbar: #{change-color($bg-nav, $alpha: 0.6)};
+  --font-family: $font;
+  --font-family-code: $font-code;
 
   // add
-  --c-bg-side-active: #{setOpacity($brand, 0.1)};
+  --c-bg-side-active: #{change-color($brand, $alpha: 0.1)};
 }
 
 html.dark {
   --c-brand: #{$brand-dark};
-  --c-bg-navbar: #{setOpacity($bg-nav-dark, 0.6)};
+  --c-bg-navbar: #{change-color($bg-nav-dark, $alpha: 0.6)};
 
   // add
-  --c-bg-side-active: #{setOpacity($brand-dark, 0.1)};
+  --c-bg-side-active: #{change-color($brand-dark, $alpha: 0.1)};
 }
 
 // modify style
@@ -37,15 +39,17 @@ html.dark {
 
   padding: 0.5em 1em;
   color: $text-color;
-  border: none;
+  border: 1px solid $color;
   border-radius: $border-radius;
   background-color: $color;
   font-size: $text-size;
   text-decoration: none;
+  line-height: 1.2;
   cursor: pointer;
-  transition: background-color 0.3s, color 0.3s;
+  transition: all 0.3s;
 
   &:hover {
+    border-color: darken($color, 10%);
     background-color: darken($color, 10%);
   }
 
@@ -62,10 +66,12 @@ html.dark {
 
   &-link {
     color: $color;
+    border-color: transparent;
     background-color: transparent;
     text-decoration: underline;
 
     &:hover {
+      border-color: transparent;
       background-color: rgba($color, 0.2);
     }
   }

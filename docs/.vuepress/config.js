@@ -7,10 +7,14 @@ const { gitPlugin } = require('@vuepress/plugin-git')
 module.exports = {
   base: '/css-components/',
   lang: 'ko',
-  title: 'CSS Components',
+  title: 'hs CSS Components',
   description: 'CSS Components',
   head: [
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/css-components/favicon.svg' }]
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/css-components/favicon.svg' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: 'anonymous' }],
+    ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap' }],
+    ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap' }],
   ],
   theme: defaultTheme({
     sidebar: [
@@ -45,6 +49,10 @@ module.exports = {
       {
         text: 'Image',
         link: '/image'
+      },
+      {
+        text: 'Navbar',
+        link: '/navbar'
       },
     ],
   }),

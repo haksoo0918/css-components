@@ -42,35 +42,39 @@
 
   padding: 0.5em 1em;
   color: $text-color;
-  border: none;
+  border: 1px solid $color;
   border-radius: $border-radius;
   background-color: $color;
   font-size: $text-size;
   text-decoration: none;
+  line-height: 1.2;
   cursor: pointer;
-  transition: background-color 0.3s, color 0.3s;
+  transition: all 0.3s;
 
   &:hover {
+    border-color: darken($color, 10%);
     background-color: darken($color, 10%);
   }
 
   &.disabled,
   &:disabled {
     opacity: 0.5;
-    cursor: not-allowed;
+    cursor: not-allowed; // pointer-events: none 때문에 작동하지 않음. 선택 사항.
     pointer-events: none;
 
-    &:hover {
+    &:hover { // pointer-events: none 때문에 작동하지 않음. 선택 사항.
       background-color: $color;
     }
   }
 
   &-link {
     color: $color;
+    border-color: transparent;
     background-color: transparent;
     text-decoration: underline;
 
     &:hover {
+      border-color: transparent;
       background-color: rgba($color, 0.2);
     }
   }
