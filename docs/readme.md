@@ -37,12 +37,9 @@
 
 ## scss 활용
 
+- [ ] _mixins.scss
+- [ ] _functions.scss
+- [x] _variables.scss
 - [ ] breakpoints
 - [ ] utils
 - [ ] layout
-
-## customize
-
-- [ ] _mixins.scss
-- [ ] _functions.scss
-- [ ] _variables.scss

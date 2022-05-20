@@ -70,15 +70,16 @@ module.exports = {
           },
         ],
       },
-      // {
-      //   text: 'SASS',
-      //   collapsible: true,
-      //   children: [
-      //     {
-      //       text: ''
-      //     }
-      //   ]
-      // }
+      {
+        text: 'SASS',
+        collapsible: true,
+        children: [
+          {
+            text: 'variables',
+            link: '/sass/variables'
+          },
+        ]
+      },
     ],
   }),
   // sass: {
