@@ -17,43 +17,68 @@ module.exports = {
     ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap' }],
   ],
   theme: defaultTheme({
+    navbar: [
+      // {
+      //   text: 'Components',
+      //   link: '/components/avatar'
+      // }
+      {
+        text: 'Github',
+        link: 'https://github.com/haksoo0918/css-components'
+      },
+    ],
     sidebar: [
       {
-        text: 'Avatar',
-        link: '/avatar'
+        text: 'Components',
+        collapsible: true,
+        children: [
+          {
+            text: 'Avatar',
+            link: '/components/avatar'
+          },
+          {
+            text: 'Breadcrumbs',
+            link: '/components/breadcrumbs'
+          },
+          {
+            text: 'Button',
+            link: '/components/button'
+          },
+          {
+            text: 'Card',
+            link: '/components/card'
+          },
+          {
+            text: 'Dialog',
+            link: '/components/dialog'
+          },
+          {
+            text: 'Divider',
+            link: '/components/divider'
+          },
+          {
+            text: 'Empty',
+            link: '/components/empty'
+          },
+          {
+            text: 'Image',
+            link: '/components/image'
+          },
+          {
+            text: 'Navbar',
+            link: '/components/navbar'
+          },
+        ],
       },
-      {
-        text: 'Breadcrumbs',
-        link: '/breadcrumbs'
-      },
-      {
-        text: 'Button',
-        link: '/button'
-      },
-      {
-        text: 'Card',
-        link: '/card'
-      },
-      {
-        text: 'Dialog',
-        link: '/dialog'
-      },
-      {
-        text: 'Divider',
-        link: '/divider'
-      },
-      {
-        text: 'Empty',
-        link: '/empty'
-      },
-      {
-        text: 'Image',
-        link: '/image'
-      },
-      {
-        text: 'Navbar',
-        link: '/navbar'
-      },
+      // {
+      //   text: 'SASS',
+      //   collapsible: true,
+      //   children: [
+      //     {
+      //       text: ''
+      //     }
+      //   ]
+      // }
     ],
   }),
   // sass: {
