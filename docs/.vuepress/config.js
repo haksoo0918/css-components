@@ -2,6 +2,7 @@ const { defaultTheme } = require('@vuepress/theme-default')
 const { searchPlugin } = require('@vuepress/plugin-search')
 const { backToTopPlugin } = require('@vuepress/plugin-back-to-top')
 const { gitPlugin } = require('@vuepress/plugin-git')
+// const { containerPlugin } = require('@vuepress/plugin-container')
 // const path = require('path')
 
 module.exports = {
@@ -32,6 +33,10 @@ module.exports = {
         text: 'Components',
         collapsible: true,
         children: [
+          {
+            text: 'Accordion',
+            link: '/components/accordion'
+          },
           {
             text: 'Avatar',
             link: '/components/avatar'
@@ -104,6 +109,7 @@ module.exports = {
     }),
     backToTopPlugin(),
     gitPlugin(),
+    // containerPlugin(),
     // palettePlugin(),
   ]
 }

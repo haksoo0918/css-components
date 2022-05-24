@@ -14,6 +14,7 @@
 
 ## 작업 예상 컴포넌트
 
+- [x] accordion
 - [x] avatar: base, circle
 - [x] breadcrumbs: base
 - [x] button: base, outline, disabled
@@ -21,19 +22,19 @@
 - [x] dialog: base
 - [x] divider: base, text, dashed
 - [x] empty
-- [x] navbar
 - [x] image: fluid, block, figure, picture
 - [ ] input
   - [ ] text
   - [ ] checkbox
   - [ ] radio
   - [ ] switch
-- [ ] textarea
 - [ ] loader
+- [x] navbar
 - [ ] pagination
 - [ ] progress
 - [ ] table
 - [ ] tag
+- [ ] textarea
 
 ## scss 활용
 
