@@ -8,7 +8,7 @@
   <ol class="breadcrumbs">
     <li><a href="#/">Home</a></li>
     <li><a href="#/">Parent Page</a></li>
-    <li>Current Page</li>
+    <li class="b">Current Page</li>
   </ol>
 </div>
 
@@ -18,11 +18,10 @@
   <CodeGroupItem title="html">
 
 ```html
-<!-- 구분자 '/' 사용 -->
 <ol class="breadcrumbs">
   <li><a href="/">Home</a></li>
   <li><a href="#/">Parent Page</a></li>
-  <li>Current Page</li>
+  <li class="b">Current Page</li>
 </ol>
 ```
 
@@ -31,7 +30,7 @@
 
 ```scss
 .breadcrumbs {
-  $divider: '/';
+  $divider: '/'; // 구분자
   $divider-padding-x: 0.5em;
   $divider-opacity: 0.5;
 
@@ -49,6 +48,10 @@
         opacity: $divider-opacity;
       }
     }
+  }
+
+  .b {
+    font-weight: bold;
   }
 }
 ```
@@ -76,6 +79,10 @@
         opacity: $divider-opacity;
       }
     }
+  }
+
+  .b {
+    font-weight: bold;
   }
 }
 </style>

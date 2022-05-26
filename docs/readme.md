@@ -28,7 +28,7 @@
   - [ ] checkbox
   - [ ] radio
   - [ ] switch
-- [x] [loading](components/loading.html):
+- [x] [loading](components/loading.html): circle
 - [x] [navbar](components/navbar.html): base
 - [ ] pagination
 - [ ] progress
