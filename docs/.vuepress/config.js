@@ -70,6 +70,10 @@ module.exports = {
             link: '/components/image'
           },
           {
+            text: 'Loading',
+            link: '/components/loading'
+          },
+          {
             text: 'Navbar',
             link: '/components/navbar'
           },

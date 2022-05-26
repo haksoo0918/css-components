@@ -14,22 +14,22 @@
 
 ## 작업 예상 컴포넌트
 
-- [x] accordion
-- [x] avatar: base, circle
-- [x] breadcrumbs: base
-- [x] button: base, outline, disabled
-- [x] card: base(vertical), horizontal(hrz)
-- [x] dialog: base
-- [x] divider: base, text, dashed
-- [x] empty
-- [x] image: fluid, block, figure, picture
+- [x] [accordion](components/accordion.html): use input:radio
+- [x] [avatar](components/avatar.html): base, circle
+- [x] [breadcrumbs](components/breadcrumbs.html): base
+- [x] [button](components/button.html): base, outline, disabled
+- [x] [card](components/card.html): base(vertical), horizontal(hrz)
+- [x] [dialog](components/dialog.html): base
+- [x] [divider](components/divider.html): base, text, dashed
+- [x] [empty](components/empty.html)
+- [x] [image](components/image.html): fluid, block, figure, picture
 - [ ] input
   - [ ] text
   - [ ] checkbox
   - [ ] radio
   - [ ] switch
-- [ ] loader
-- [x] navbar
+- [x] [loading](components/loading.html):
+- [x] [navbar](components/navbar.html): base
 - [ ] pagination
 - [ ] progress
 - [ ] table
@@ -40,7 +40,7 @@
 
 - [ ] _mixins.scss
 - [ ] _functions.scss
-- [x] _variables.scss
+- [x] [_variables.scss](sass/variables.html)
 - [ ] breakpoints
 - [ ] utils
 - [ ] layout
