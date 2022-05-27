@@ -18,6 +18,8 @@ module.exports = {
     ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap' }],
   ],
   theme: defaultTheme({
+    nextLinks: true,
+    prevLinks: true,
     navbar: [
       // {
       //   text: 'Components',
@@ -76,6 +78,10 @@ module.exports = {
           {
             text: 'Navbar',
             link: '/components/navbar'
+          },
+          {
+            text: 'Pagination',
+            link: '/components/pagination'
           },
         ],
       },
