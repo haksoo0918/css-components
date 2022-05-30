@@ -31,7 +31,7 @@
 - [x] [loading](components/loading.html): circle
 - [x] [navbar](components/navbar.html): base
 - [x] [pagination](components/pagination.html): base
-- [ ] progress
+- [x] [progress](components/progress.html): base, custom, striped, animation
 - [ ] table
 - [ ] tag
 - [ ] textarea
