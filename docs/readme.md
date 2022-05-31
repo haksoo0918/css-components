@@ -32,7 +32,7 @@
 - [x] [navbar](components/navbar.html): base
 - [x] [pagination](components/pagination.html): base
 - [x] [progress](components/progress.html): base, custom, striped, animation
-- [ ] table
+- [x] [table](components/table.html): base, bordered, striped
 - [ ] tag
 - [ ] textarea
 

@@ -87,6 +87,10 @@ module.exports = {
             text: 'Progress',
             link: '/components/progress'
           },
+          {
+            text: 'Table',
+            link: '/components/table'
+          },
         ],
       },
       {
