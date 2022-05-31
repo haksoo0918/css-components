@@ -124,6 +124,5 @@ module.exports = {
     backToTopPlugin(),
     gitPlugin(),
     // containerPlugin(),
-    // palettePlugin(),
   ]
 }

@@ -51,7 +51,7 @@
   <CodeGroupItem title="SCSS">
 
 ```scss
-@keyframes working {
+@keyframes loading {
   from {
     background-position: 0 0;
   }
@@ -93,8 +93,8 @@
       background-image: repeating-linear-gradient(45deg, #0003 0 16px, #0000 16px 32px);
 
       &.animated {
-        background-size: 150% $height;
-        animation: working 1s linear infinite;
+        background-size: calc(100% + 45px) $height;
+        animation: loading 1s linear infinite;
       }
     }
   }
@@ -105,7 +105,7 @@
 </CodeGroup>
 
 <style lang="scss" scoped>
-@keyframes working {
+@keyframes loading {
   from {
     background-position: 0 0;
   }
@@ -148,8 +148,8 @@
       background-image: repeating-linear-gradient(45deg, #0003 0 16px, #0000 16px 32px);
 
       &.animated {
-        background-size: 150% $height;
-        animation: working 1s linear infinite;
+        background-size: calc(100% + 45px) $height;
+        animation: loading 1s linear infinite;
       }
     }
   }
