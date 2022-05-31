@@ -64,18 +64,20 @@
   $bg: #8883;
   $color: #7fff00;
   $height: 1rem;
+  $border-radius: 4px;
 
   display: block;
   width: auto;
   height: $height;
   border: none;
-  border-radius: 4px;
+  border-radius: $border-radius;
   overflow: hidden;
 
   &::-webkit-progress-bar {
     background-color: $bg;
   }
   &::-webkit-progress-value {
+    background-color: $color;
   }
 
   &-custom {
@@ -118,12 +120,13 @@
   $bg: #8883;
   $color: #7fff00;
   $height: 1rem;
+  $border-radius: 4px;
 
   display: block;
   width: auto;
   height: $height;
   border: none;
-  border-radius: 4px;
+  border-radius: $border-radius;
   overflow: hidden;
 
   &::-webkit-progress-bar {
