@@ -33,7 +33,7 @@
 - [x] [pagination](components/pagination.html): base
 - [x] [progress](components/progress.html): base, custom, striped, animation
 - [x] [table](components/table.html): base, bordered, striped
-- [ ] tag
+- [x] [tag](components/tag.html): link, with close button
 - [ ] textarea
 
 ## scss 활용

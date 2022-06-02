@@ -91,6 +91,10 @@ module.exports = {
             text: 'Table',
             link: '/components/table'
           },
+          {
+            text: 'Tag',
+            link: '/components/tag'
+          },
         ],
       },
       {
