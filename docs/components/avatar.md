@@ -6,11 +6,11 @@
 
 <div class="box">
   <div class="avatar">
-    <img src="http://placekitten.com/40/40" alt="">
+    <img src="https://xsgames.co/randomusers/avatar.php?g=male" alt="">
   </div>
 
   <div class="avatar avatar-circle">
-    <img src="http://placekitten.com/40/40" alt="">
+    <img src="https://xsgames.co/randomusers/avatar.php?g=female" alt="">
   </div>
 
   <div class="avatar">
@@ -30,12 +30,12 @@
 ```html
 <!-- 이미지 -->
 <div class="avatar">
-  <img src="http://placekitten.com/40/40" alt="">
+  <img src="https://xsgames.co/randomusers/avatar.php?g=male" alt="">
 </div>
 
 <!-- 이미지 & 원형 -->
 <div class="avatar avatar-circle">
-  <img src="http://placekitten.com/40/40" alt="">
+  <img src="https://xsgames.co/randomusers/avatar.php?g=female" alt="">
 </div>
 
 <!-- 텍스트 -->
@@ -56,7 +56,7 @@
 .avatar {
   $size: 40px;
   $border-radius: 10px;
-  $bg-color: #eee;
+  $bg-color: #8886;
 
   width: $size;
   height: $size;
@@ -91,7 +91,7 @@
 .avatar {
   $size: 40px;
   $border-radius: 10px;
-  $bg-color: #eee;
+  $bg-color: #8886;
 
   width: $size;
   height: $size;
