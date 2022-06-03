@@ -17,6 +17,7 @@
 ```html
 <!-- link tag -->
 <a href="#/" class="tag">tag</a>
+
 <!-- tag with close button -->
 <span class="tag">tag<button class="btn-close" type="button" title="close">&times;</button></span>
 ```

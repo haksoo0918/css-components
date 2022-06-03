@@ -14,27 +14,27 @@
 
 ## 작업 예상 컴포넌트
 
-- [x] [accordion](components/accordion.html): use input:radio
+- [x] [accordion](components/accordion.html): use `input:radio`
 - [x] [avatar](components/avatar.html): base, circle
 - [x] [breadcrumbs](components/breadcrumbs.html): base
 - [x] [button](components/button.html): base, outline, disabled
 - [x] [card](components/card.html): base(vertical), horizontal(hrz)
 - [x] [dialog](components/dialog.html): base
 - [x] [divider](components/divider.html): base, text, dashed
-- [x] [empty](components/empty.html)
+- [x] [empty](components/empty.html): use `:emtpy` selector
 - [x] [image](components/image.html): fluid, block, figure, picture
 - [ ] input
   - [ ] text
   - [ ] checkbox
   - [ ] radio
   - [ ] switch
+  - [ ] textarea
 - [x] [loading](components/loading.html): circle
 - [x] [navbar](components/navbar.html): base
 - [x] [pagination](components/pagination.html): base
 - [x] [progress](components/progress.html): base, custom, striped, animation
 - [x] [table](components/table.html): base, bordered, striped
 - [x] [tag](components/tag.html): link, with close button
-- [ ] textarea
 
 ## scss 활용
 
