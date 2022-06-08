@@ -37,63 +37,63 @@ module.exports = {
         children: [
           {
             text: 'Accordion',
-            link: '/components/accordion'
+            link: '/components/accordion',
           },
           {
             text: 'Avatar',
-            link: '/components/avatar'
+            link: '/components/avatar',
           },
           {
             text: 'Breadcrumbs',
-            link: '/components/breadcrumbs'
+            link: '/components/breadcrumbs',
           },
           {
             text: 'Button',
-            link: '/components/button'
+            link: '/components/button',
           },
           {
             text: 'Card',
-            link: '/components/card'
+            link: '/components/card',
           },
           {
             text: 'Dialog',
-            link: '/components/dialog'
+            link: '/components/dialog',
           },
           {
             text: 'Divider',
-            link: '/components/divider'
+            link: '/components/divider',
           },
           {
             text: 'Empty',
-            link: '/components/empty'
+            link: '/components/empty',
           },
           {
             text: 'Image',
-            link: '/components/image'
+            link: '/components/image',
           },
           {
             text: 'Loading',
-            link: '/components/loading'
+            link: '/components/loading',
           },
           {
             text: 'Navbar',
-            link: '/components/navbar'
+            link: '/components/navbar',
           },
           {
             text: 'Pagination',
-            link: '/components/pagination'
+            link: '/components/pagination',
           },
           {
             text: 'Progress',
-            link: '/components/progress'
+            link: '/components/progress',
           },
           {
             text: 'Table',
-            link: '/components/table'
+            link: '/components/table',
           },
           {
             text: 'Tag',
-            link: '/components/tag'
+            link: '/components/tag',
           },
         ],
       },
@@ -102,8 +102,12 @@ module.exports = {
         collapsible: true,
         children: [
           {
+            text: 'mixins',
+            link: '/sass/mixins',
+          },
+          {
             text: 'variables',
-            link: '/sass/variables'
+            link: '/sass/variables',
           },
         ]
       },

@@ -38,9 +38,9 @@
 
 ## scss 활용
 
-- [ ] _mixins.scss
+- [-] [_mixins.scss](sass/mixins.html)
 - [ ] _functions.scss
-- [x] [_variables.scss](sass/variables.html)
+- [-] [_variables.scss](sass/variables.html)
 - [ ] breakpoints
 - [ ] utils
 - [ ] layout
