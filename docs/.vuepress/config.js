@@ -76,44 +76,44 @@ module.exports = {
         ],
       },
       {
-        text: 'Components',
+        text: 'CSS Components',
         collapsible: true,
         children: [
           {
             text: 'Accordion',
-            link: '/components/accordion',
+            link: '/css-components/accordion',
           },
           {
             text: 'Avatar',
-            link: '/components/avatar',
+            link: '/css-components/avatar',
           },
           {
             text: 'Breadcrumbs',
-            link: '/components/breadcrumbs',
+            link: '/css-components/breadcrumbs',
           },
           {
             text: 'Card',
-            link: '/components/card',
+            link: '/css-components/card',
           },
           {
             text: 'Empty',
-            link: '/components/empty',
+            link: '/css-components/empty',
           },
           {
             text: 'Loading',
-            link: '/components/loading',
+            link: '/css-components/loading',
           },
           {
             text: 'Navbar',
-            link: '/components/navbar',
+            link: '/css-components/navbar',
           },
           {
             text: 'Pagination',
-            link: '/components/pagination',
+            link: '/css-components/pagination',
           },
           {
             text: 'Tag',
-            link: '/components/tag',
+            link: '/css-components/tag',
           },
         ],
       },
