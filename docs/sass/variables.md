@@ -16,8 +16,8 @@ $body-bg-color: $white;
 $border-color: #ccc;
 
 // 글꼴
-// ======================
 // ref: https://getbootstrap.com/docs/5.2/content/reboot/#native-font-stack
+// ======================
 $font-base: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
 // Noto Sans KR 을 웹폰트로 사용시
 $font-noto: 'Noto Sans KR', 'Noto Sans', $font-base;

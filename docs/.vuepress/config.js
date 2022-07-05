@@ -32,6 +32,50 @@ module.exports = {
     ],
     sidebar: [
       {
+        text: 'SASS',
+        collapsible: true,
+        children: [
+          {
+            text: 'mixins',
+            link: '/sass/mixins',
+          },
+          {
+            text: 'variables',
+            link: '/sass/variables',
+          },
+        ]
+      },
+      {
+        test: 'Tags',
+        collapsible: true,
+        children: [
+          {
+            text: 'Button',
+            link: '/tags/button',
+          },
+          {
+            text: 'Dialog',
+            link: '/tags/dialog',
+          },
+          {
+            text: 'Divider',
+            link: '/tags/divider',
+          },
+          {
+            text: 'Image',
+            link: '/tags/image',
+          },
+          {
+            text: 'Progress',
+            link: '/tags/progress',
+          },
+          {
+            text: 'Table',
+            link: '/tags/table',
+          },
+        ],
+      },
+      {
         text: 'Components',
         collapsible: true,
         children: [
@@ -48,28 +92,12 @@ module.exports = {
             link: '/components/breadcrumbs',
           },
           {
-            text: 'Button',
-            link: '/components/button',
-          },
-          {
             text: 'Card',
             link: '/components/card',
           },
           {
-            text: 'Dialog',
-            link: '/components/dialog',
-          },
-          {
-            text: 'Divider',
-            link: '/components/divider',
-          },
-          {
             text: 'Empty',
             link: '/components/empty',
-          },
-          {
-            text: 'Image',
-            link: '/components/image',
           },
           {
             text: 'Loading',
@@ -84,32 +112,10 @@ module.exports = {
             link: '/components/pagination',
           },
           {
-            text: 'Progress',
-            link: '/components/progress',
-          },
-          {
-            text: 'Table',
-            link: '/components/table',
-          },
-          {
             text: 'Tag',
             link: '/components/tag',
           },
         ],
-      },
-      {
-        text: 'SASS',
-        collapsible: true,
-        children: [
-          {
-            text: 'mixins',
-            link: '/sass/mixins',
-          },
-          {
-            text: 'variables',
-            link: '/sass/variables',
-          },
-        ]
       },
     ],
   }),
