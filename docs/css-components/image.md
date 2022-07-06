@@ -1,3 +1,8 @@
+---
+prev: empty.md
+next: loading.md
+---
+
 # Image
 
 > 이미지 활용

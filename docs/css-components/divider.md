@@ -1,3 +1,8 @@
+---
+prev: dialog.md
+next: empty.md
+---
+
 # Divider
 
 > 구분선

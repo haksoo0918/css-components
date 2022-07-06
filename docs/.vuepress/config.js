@@ -18,15 +18,15 @@ module.exports = {
     ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap' }],
   ],
   theme: defaultTheme({
-    nextLinks: true,
-    prevLinks: true,
+    // nextLinks: true, // not work
+    // prevLinks: true,
     navbar: [
       // {
       //   text: 'Components',
       //   link: '/components/avatar'
       // }
       {
-        text: 'Github',
+        text: 'GitHub',
         link: 'https://github.com/haksoo0918/css-components'
       },
     ],
@@ -43,37 +43,11 @@ module.exports = {
             text: 'variables',
             link: '/sass/variables',
           },
+          {
+            text: 'utils',
+            link: '/sass/utils',
+          },
         ]
-      },
-      {
-        test: 'Tags',
-        collapsible: true,
-        children: [
-          {
-            text: 'Button',
-            link: '/tags/button',
-          },
-          {
-            text: 'Dialog',
-            link: '/tags/dialog',
-          },
-          {
-            text: 'Divider',
-            link: '/tags/divider',
-          },
-          {
-            text: 'Image',
-            link: '/tags/image',
-          },
-          {
-            text: 'Progress',
-            link: '/tags/progress',
-          },
-          {
-            text: 'Table',
-            link: '/tags/table',
-          },
-        ],
       },
       {
         text: 'CSS Components',
@@ -92,12 +66,28 @@ module.exports = {
             link: '/css-components/breadcrumbs',
           },
           {
+            text: 'Button',
+            link: '/css-components/button',
+          },
+          {
             text: 'Card',
             link: '/css-components/card',
           },
           {
+            text: 'Dialog',
+            link: '/css-components/dialog',
+          },
+          {
+            text: 'Divider',
+            link: '/css-components/divider',
+          },
+          {
             text: 'Empty',
             link: '/css-components/empty',
+          },
+          {
+            text: 'Image',
+            link: '/css-components/image',
           },
           {
             text: 'Loading',
@@ -112,10 +102,28 @@ module.exports = {
             link: '/css-components/pagination',
           },
           {
+            text: 'Progress',
+            link: '/css-components/progress',
+          },
+          {
+            text: 'Table',
+            link: '/css-components/table',
+          },
+          {
             text: 'Tag',
             link: '/css-components/tag',
           },
         ],
+      },
+      {
+        text: 'Vue Components',
+        collapsible: true,
+        children: [
+          {
+            text: 'Modal',
+            link: '/vue-components/modal',
+          },
+        ]
       },
     ],
   }),

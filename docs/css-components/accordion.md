@@ -1,6 +1,16 @@
+---
+tags:
+  - input
+  - radio
+  - accordion
+
+next:
+  avatar.md
+---
+
 # Accordion
 
-> 라디오를 활용한 아코디언
+> input 태그 라디오를 활용한 아코디언
 
 ## Examples
 

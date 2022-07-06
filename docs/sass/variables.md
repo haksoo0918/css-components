@@ -1,3 +1,12 @@
+---
+tags:
+  - sass
+  - variable
+
+prev: mixins.md
+next: utils.md
+---
+
 # _variables.scss
 
 > SASS 변수 활용
@@ -5,11 +14,11 @@
 ```scss
 // 색상
 // ======================
-$brand: #7fff00;
-//
 $white: #fff;
 $black: #000;
 //
+$brand-color: #7fff00; // or primary
+$point-color: #f20; // or secondary
 $text-color: #222;
 $link-color: #00f;
 $body-bg-color: $white;

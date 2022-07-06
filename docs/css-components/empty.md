@@ -1,3 +1,8 @@
+---
+prev: divider.md
+next: image.md
+---
+
 # Empty
 
 > 목록이나 내용이 보여질 부분에 보여질 데이타가 없는 경우

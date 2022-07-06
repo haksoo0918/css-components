@@ -1,11 +1,19 @@
-# _mixins.sass
+---
+tags:
+  - sass
+  - mixin
+
+next:
+  variables.md
+---
+
+# _mixins.scss
 
 > 활용 가능한 mixins
 
 ## clearfix
 
 floating 해제  
-참조: [bootstrap - clearfix](https://getbootstrap.com/docs/5.2/helpers/clearfix/)
 
 ```scss
 @mixin clearfix() {
@@ -20,11 +28,11 @@ floating 해제
   @include clearfix;
 }
 ```
+참조: [bootstrap - clearfix](https://getbootstrap.com/docs/5.2/helpers/clearfix/)
 
 ## stretched link
 
 확장 링크  
-참조: [bootstrap - stretched link](https://getbootstrap.com/docs/5.2/helpers/stretched-link/)
 
 ```scss
 @mixin stretched-link() {
@@ -44,6 +52,7 @@ floating 해제
   @include stretched-link;
 }
 ```
+참조: [bootstrap - stretched link](https://getbootstrap.com/docs/5.2/helpers/stretched-link/)
 
 ## text-clamp
 

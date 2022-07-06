@@ -1,3 +1,7 @@
+---
+prev: table.md
+---
+
 # Tag
 
 > 태그

@@ -1,3 +1,8 @@
+---
+prev: card.md
+next: divider.md
+---
+
 # Dialog
 
 > 다이얼로그, 모달, 레이어 팝업
@@ -121,6 +126,10 @@ function closeDialog() {
 
   </CodeGroupItem>
 </CodeGroup>
+
+::: tip reference
+- [Building a dialog component | web.dev](https://web.dev/building-a-dialog-component/)
+:::
 
 <style lang="scss" scoped>
 @keyframes showDialog {

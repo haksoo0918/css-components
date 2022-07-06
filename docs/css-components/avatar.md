@@ -1,3 +1,15 @@
+---
+tags:
+  - avatar
+  - thumbnail
+
+prev:
+  accordion.md
+
+next:
+  breadcrumbs.md
+---
+
 # Avatar
 
 > 사용자 계정 썸네일

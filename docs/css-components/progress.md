@@ -1,3 +1,8 @@
+---
+prev: pagination.md
+next: table.md
+---
+
 # Progress
 
 > 진행 정도 표시

@@ -1,3 +1,8 @@
+---
+prev: image.md
+next: navbar.md
+---
+
 # Loading
 
 > 로딩중 이미지

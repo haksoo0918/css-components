@@ -1,3 +1,8 @@
+---
+prev: navbar.md
+next: progress.md
+---
+
 # Pagination
 
 > 페이지네이션

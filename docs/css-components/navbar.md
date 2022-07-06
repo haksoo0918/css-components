@@ -1,3 +1,8 @@
+---
+prev: loading.md
+next: pagination.md
+---
+
 # Navbar
 
 > 상단 네비게이션 바
