@@ -2,8 +2,6 @@
 
 > Vue3 기반 모달
 
-[[toc]]
-
 ## Codes
 
 <CodeGroup>
@@ -43,12 +41,12 @@ export default {
 
 ``` vue
 <template>
-  <Transition name="md">
+  <Transition name="modal">
     <div v-if="show" class="modal">
       <div class="modal-content">
         <header class="modal-header">
           <slot name="header">
-            <h5 class="modal-title">알림</h5>
+            <h5 class="modal-title">{{ title }}</h5>
           </slot>
         </header>
 
@@ -58,7 +56,7 @@ export default {
 
         <footer class="modal-footer">
           <slot name="footer">
-            <button class="btn" @click="$emit('close')">닫기</button>
+            <button class="btn" @click="$emit('close')">{{ closeButtonText }}</button>
           </slot>
         </footer>
       </div>
@@ -69,7 +67,18 @@ export default {
 <script>
 export default {
   props: {
-    show: Boolean
+    show: {
+      type: Boolean,
+      default: false,
+    },
+    title: {
+      type: String,
+      default: '알림',
+    },
+    closeButtonText: {
+      type: String,
+      default: '닫기',
+    },
   }
 }
 </script>
@@ -111,8 +120,8 @@ export default {
     padding: 0.5rem 1rem 1rem;
     text-align: right;
   }
-}
-.md {
+
+  // transition
   &-enter-from,
   &-leave-to {
     opacity: 0;
