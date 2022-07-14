@@ -125,6 +125,10 @@ module.exports = {
           },
         ]
       },
+      {
+        text: 'Favorites',
+        link: '/favorites'
+      },
     ],
   }),
   // sass: {

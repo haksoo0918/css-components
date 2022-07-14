@@ -41,7 +41,7 @@ export default {
 
 ``` vue
 <template>
-  <Transition name="modal">
+  <Transition name="fade">
     <div v-if="show" class="modal">
       <div class="modal-content">
         <header class="modal-header">
@@ -67,10 +67,7 @@ export default {
 <script>
 export default {
   props: {
-    show: {
-      type: Boolean,
-      default: false,
-    },
+    show: Boolean,
     title: {
       type: String,
       default: '알림',
@@ -85,6 +82,9 @@ export default {
 
 <style lang="scss" scoped>
 .modal {
+  --content-width: 500px;
+  --title-font-size: 1.25rem;
+
   position: fixed;
   display: flex;
   align-items: center;
@@ -99,7 +99,7 @@ export default {
   transition: all 0.3s ease;
 
   &-content {
-    width: 500px;
+    width: var(--content-width);
     border: 1px solid #ccc;
     border-radius: 4px;
     background-color: #fff;
@@ -111,7 +111,7 @@ export default {
   }
   &-title {
     margin: 0;
-    font-size: 1.25rem;
+    font-size: var(--title-font-size);
   }
   &-body {
     padding: 1rem;
@@ -122,6 +122,8 @@ export default {
   }
 
   // transition
+}
+.fade {
   &-enter-from,
   &-leave-to {
     opacity: 0;
