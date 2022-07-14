@@ -1,0 +1,1 @@
+const e={key:"v-194cc505",path:"/vue-components/modal.html",title:"Modal",lang:"ko",frontmatter:{},excerpt:"",headers:[{level:2,title:"Codes",slug:"codes",children:[]}],filePathRelative:"vue-components/modal.md",git:{createdTime:1657097204e3,updatedTime:165777191e4,contributors:[{name:"haksoo",email:"haksoo@curioud.com",commits:3}]}};export{e as data};

@@ -1,0 +1,1 @@
+const a={key:"v-5fa335ac",path:"/sass/variables.html",title:"_variables.scss",lang:"ko",frontmatter:{tags:["sass","variable"],prev:"mixins.md",next:"utils.md"},excerpt:"",headers:[],filePathRelative:"sass/variables.md",git:{createdTime:1653022861e3,updatedTime:1657097204e3,contributors:[{name:"haksoo",email:"haksoo@curioud.com",commits:3}]}};export{a as data};
