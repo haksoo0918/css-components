@@ -120,6 +120,10 @@ module.exports = {
         collapsible: true,
         children: [
           {
+            text: 'Dropdown',
+            link: '/vue-components/dropdown',
+          },
+          {
             text: 'Modal',
             link: '/vue-components/modal',
           },
