@@ -47,7 +47,7 @@ export default {
 ```
 
   </CodeGroupItem>
-  <CodeGroupItem title="Modal.vue">
+  <CodeGroupItem title="Dropdown.vue">
 
 ``` vue
 <template>
