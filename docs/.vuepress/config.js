@@ -127,6 +127,10 @@ module.exports = {
             text: 'Modal',
             link: '/vue-components/modal',
           },
+          {
+            text: 'Svg',
+            link: '/vue-components/svg',
+          },
         ]
       },
       {

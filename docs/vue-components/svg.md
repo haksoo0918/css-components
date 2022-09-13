@@ -2,7 +2,7 @@
 prev: modal.md
 ---
 
-# Svg
+# Svg Base
 
 > Vue에서 SVG 사용 방법
 

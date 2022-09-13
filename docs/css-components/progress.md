@@ -1,6 +1,6 @@
 ---
 prev: pagination.md
-next: table.md
+next: tab.md
 ---
 
 # Progress
