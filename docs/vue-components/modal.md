@@ -13,6 +13,22 @@ next: svg.md
   <CodeGroupItem title="App.vue">
 
 ``` vue
+<template>
+  <button class="btn" @click="showModal = true">open Modal</button>
+
+  <Teleport to="body">
+    <modal
+      class="custom-modal"
+      :show="showModal"
+      @close="showModal = false"
+    >
+      <template #body>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam repellat dolore maxime totam repudiandae sapiente voluptatibus minus optio provident! Veniam eum aliquam ratione modi officia, cupiditate mollitia recusandae possimus eligendi?</p>
+      </template>
+    </modal>
+  </Teleport>
+</template>
+
 <script>
 import Modal from './Modal.vue'
 
@@ -23,25 +39,16 @@ export default {
   data () {
     return {
       showModal: false,
-      modalCSSVar: {
-        '--content-width': '600px'
-      }
     }
   }
 }
 </script>
 
-<template>
-  <button class="btn" @click="showModal = true">open Modal</button>
-
-  <Teleport to="body">
-    <modal :show="showModal" @close="showModal = false">
-      <template #body>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam repellat dolore maxime totam repudiandae sapiente voluptatibus minus optio provident! Veniam eum aliquam ratione modi officia, cupiditate mollitia recusandae possimus eligendi?</p>
-      </template>
-    </modal>
-  </Teleport>
-</template>
+<style lang="scss" scoped>
+.custom-modal {
+  --content-width: 400px;
+}
+</style>
 ```
 
   </CodeGroupItem>

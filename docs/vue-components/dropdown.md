@@ -22,10 +22,6 @@ export default {
   data () {
     return {
       showDropdown: false,
-      dropdownCSSVar: {
-        '--content-text-color': 'blue',
-        '--content-bg-color': '#eee'
-      }
     }
   }
 }
@@ -33,8 +29,8 @@ export default {
 
 <template>
   <dropdown
+    class="custom-dropdown"
     :show="showDropdown"
-    :style="dropdownCSSVar"
     buttonText="드롭다운 토글 버튼"
     @close="showDropdown = false"
     @toggle="showDropdown = !showDropdown"
@@ -44,6 +40,13 @@ export default {
     </template>
   </dropdown>
 </template>
+
+<style lang="scss" scoped>
+.custom-dropdown {
+  --content-text-color: blue;
+  --content-bg-color: #eee;
+}
+</style>
 ```
 
   </CodeGroupItem>
@@ -107,6 +110,7 @@ export default {
   --content-button: auto;
   --content-width: 20rem;
   --content-height: 10rem;
+  --content-padding: 0.5rem 1rem;
 
   position: relative;
   display: inline-block;
@@ -140,7 +144,7 @@ export default {
     right: var(--content-right);
     bottom: var(--content-bottom);
     margin-top: 2px;
-    padding: 0.5rem 1rem;
+    padding: var(--content-padding);
     color: var(--content-text-color);
     border: 1px solid #ccc;
     border-radius: 4px;
