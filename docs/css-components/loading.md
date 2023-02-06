@@ -1,6 +1,6 @@
 ---
 prev: image.md
-next: navbar.md
+next: loading-class.md
 ---
 
 # Loading
@@ -46,7 +46,7 @@ next: navbar.md
   $border-point-color: #7fff00;
   $circle-size: 40px;
   $circle-width: 4px;
-  $animation-speed: 1.5s;
+  $animation-speed: 1s;
 
   display: flex;
   flex-direction: column;
@@ -88,7 +88,7 @@ next: navbar.md
   $point-color: #7fff00;
   $circle-size: 40px;
   $circle-width: 4px;
-  $animation-speed: 1.5s;
+  $animation-speed: 1s;
 
   display: flex;
   flex-direction: column;

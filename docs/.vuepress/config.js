@@ -94,6 +94,10 @@ module.exports = {
             link: '/css-components/loading',
           },
           {
+            text: 'Loading Class',
+            link: '/css-components/loading-class',
+          },
+          {
             text: 'Navbar',
             link: '/css-components/navbar',
           },
