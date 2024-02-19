@@ -1,0 +1,1 @@
+const e={key:"v-612fde0f",path:"/vue-components/dropdown.html",title:"Dropdown",lang:"ko",frontmatter:{next:"modal.md"},excerpt:"",headers:[],filePathRelative:"vue-components/dropdown.md",git:{createdTime:1659505933e3,updatedTime:1663293306e3,contributors:[{name:"haksoo",email:"haksoo@curioud.com",commits:3}]}};export{e as data};
