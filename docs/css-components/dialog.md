@@ -28,14 +28,14 @@ next: divider.md
 
 ```html
 <!-- open button -->
-<button class="btn" type="button" onclick="openDialog()">dialog open</button>
+<button class="btn" type="button" onclick="openDialog('d-1')">dialog open</button>
 
 <!-- dialog -->
-<dialog class="dialog" ref="dialog">
+<dialog id="d-1" class="dialog">
   <header class="dialog-header"><h5 class="dialog-title">Dialog Title</h5></header>
   <div class="dialog-body">Dialog content</div>
   <footer class="dialog-footer">
-    <button type="button" class="btn" onclick="closeDialog()">Close</button>
+    <button type="button" class="btn" onclick="closeDialog('d-1')">Close</button>
   </footer>
 </dialog>
 ```
@@ -114,13 +114,13 @@ next: divider.md
   <CodeGroupItem title="JS">
 
 ```js
-var dialog = document.querySelector('.dialog');
+// var dialog = document.querySelector('.dialog');
 
-function openDialog() {
-  dialog.showModal();
+function openDialog(id) {
+  document.getElementById(id).showModal();
 }
-function closeDialog() {
-  dialog.close();
+function closeDialog(id) {
+  document.getElementById(id).close();
 }
 ```
 
